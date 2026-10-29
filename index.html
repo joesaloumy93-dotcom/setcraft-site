@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Setcraft Support</title>
+<meta name="description" content="Help for Setcraft, the workout timer you build yourself.">
+<link rel="icon" href="icon.png">
+<style>
+  :root {
+    --bg: #ffffff; --text: #1c1c1e; --muted: #6c6c70; --line: #e5e5ea;
+    --card: #f5f5f7; --accent: #e8590c;
+  }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #000000; --text: #f2f2f7; --muted: #a1a1a6; --line: #2c2c2e; --card: #1c1c1e; --accent: #ff8a3d; }
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0; background: var(--bg); color: var(--text);
+    font: 17px/1.6 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    -webkit-text-size-adjust: 100%;
+  }
+  main { max-width: 680px; margin: 0 auto; padding: 40px 20px 64px; }
+  .hero { text-align: center; padding: 16px 0 8px; }
+  .hero img { width: 112px; height: 112px; border-radius: 25px; }
+  h1 { font-size: 38px; line-height: 1.1; margin: 18px 0 6px; letter-spacing: -0.02em; }
+  .tagline { color: var(--muted); font-size: 19px; margin: 0; }
+  h2 { font-size: 24px; margin: 44px 0 12px; }
+  p { margin: 0 0 12px; }
+  a { color: var(--accent); }
+  .contact { background: var(--card); border-radius: 14px; padding: 20px; margin-top: 32px; }
+  .contact p:last-child { margin: 0; }
+  .contact a { font-weight: 600; font-size: 19px; }
+  details { border-bottom: 1px solid var(--line); padding: 14px 0; }
+  details:first-of-type { border-top: 1px solid var(--line); }
+  summary { cursor: pointer; font-weight: 600; list-style-position: outside; }
+  details p { margin: 10px 0 0; }
+  .muted { color: var(--muted); font-size: 15px; }
+  footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 20px; }
+</style>
+</head>
+<body>
+<main>
+  <div class="hero">
+    <img src="icon.png" alt="Setcraft app icon" width="112" height="112">
+    <h1>Setcraft</h1>
+    <p class="tagline">Reps, timers and a voice coach. Private by design.</p>
+  </div>
+
+  <div class="contact">
+    <p>Need help, found a bug, or have an idea? Write to me and I'll get back to you.</p>
+    <p><a href="mailto:setcraft.app@gmail.com">setcraft.app@gmail.com</a></p>
+  </div>
+
+  <h2>Common questions</h2>
+
+  <details>
+    <summary>How do I keep the timer on the Lock Screen?</summary>
+    <p>Open Settings in Setcraft and turn on <strong>Lock Screen timer</strong>. It starts off because iOS asks your permission for it. Then start a workout and lock your phone: the countdown shows on the Lock Screen and in the Dynamic Island, with a Pause or Done button.</p>
+  </details>
+
+  <details>
+    <summary>The voice doesn't speak.</summary>
+    <p>Check that <strong>Voice cues</strong> is on in Settings and that your iPhone's volume is up. The voice keeps speaking while the phone is locked, and your music keeps playing underneath it. For a nicer voice, download an Enhanced or Premium one in iPhone Settings → Accessibility → Read &amp; Speak → Voices.</p>
+  </details>
+
+  <details>
+    <summary>How does push-up counting work?</summary>
+    <p>On a rep set, lay your iPhone face up on the floor under your chest. Each time you go down, the sensor near the top of the screen (the one that dims it during calls) counts a rep. It needs <strong>Count reps with phone underneath</strong> on in Settings. You can always tap the ring to count by hand instead.</p>
+  </details>
+
+  <details>
+    <summary>Where are my steps, distance and floors?</summary>
+    <p>Turn on <strong>Count steps (Apple Health)</strong> in Settings and allow access when iOS asks. Each workout then shows the steps, distance and floors your iPhone recorded, and History shows today's total at the top. If nothing appears, check access in the Health app → your picture → Apps → Setcraft.</p>
+  </details>
+
+  <details>
+    <summary>What can I say to Siri?</summary>
+    <p>"Start Full Body in Setcraft" (use any of your workout names), "Pause Setcraft", "Resume Setcraft" and "Next set in Setcraft". No setup is needed. You can turn this off with <strong>Siri &amp; Shortcuts</strong> in Settings.</p>
+  </details>
+
+  <details>
+    <summary>How do I move my workouts to a new iPhone?</summary>
+    <p>In Settings → Your data, tap <strong>Export backup</strong> and save the file (for example to iCloud Drive or with AirDrop). On the new iPhone, tap <strong>Import backup</strong> and pick that file. Your workouts, history, custom awards and favourite quotes come with it. Restoring your whole iPhone from an iCloud or computer backup also brings Setcraft's data along.</p>
+  </details>
+
+  <details>
+    <summary>How do I delete my data?</summary>
+    <p>Settings → Your data → <strong>Delete everything</strong> removes all workouts, history, awards, favourites and settings from your iPhone. Deleting the app does the same. Nothing is stored anywhere else.</p>
+  </details>
+
+  <details>
+    <summary>How do I get a refund?</summary>
+    <p>Purchases are handled by Apple. Request a refund at <a href="https://reportaproblem.apple.com">reportaproblem.apple.com</a>.</p>
+  </details>
+
+  <h2>Privacy</h2>
+  <p>Setcraft has no account, no ads, no analytics and no tracking, and it works without internet. Everything stays on your iPhone. <a href="privacy.html">Read the privacy policy</a>.</p>
+
+  <footer class="muted">© 2026 Joseph Abdo · <a href="privacy.html">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
